@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(7, 7, 129);
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(217, 241, 232);
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn:disabled {
+    cursor: none;
+}
+
+.correct {
+    background-color: rgb(126, 255, 212);
+}
+
+.incorrect {
+    background-color: rgb(255, 142, 142);
+}
+
+.main-body {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 80%;
+    height: 40px;
+    border: 2px solid rgb(0, 191, 255);
+    font-size: 16px;
+    margin: 10px;
+    color: black;
+    border-radius: 10px;
+
+}
+
+#btn:hover:not([disabled]) {
+    background-color: black;
+    color: aliceblue;
+}
+
+#btn:disabled {
+    cursor: no-drop;
+}
+.next{
+    padding-bottom: 20px;
+}
+#next-button {
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(70, 37, 102);
+    border: none;
+    padding: 20px;
+    padding-top: 5px;
+    margin-top: 6%;
+    margin-left: 8%;
+    position: absolute;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+#question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
